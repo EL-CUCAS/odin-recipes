@@ -7,6 +7,7 @@ body{
 
 *{
       font-family: 'Lato', sans-serif;
+     
 }
 
 /* define h1 and footer elements style */
@@ -28,6 +29,8 @@ h1, .footer{
     text-align: center;
     margin: 20px auto;
     border: 5px solid #291b14;  
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
    
     
 }
@@ -48,4 +51,57 @@ a {
 
 img{
     border: 2.5px solid brown ;
+    width: fit-content;
+    display: block;
+    margin: auto;
+}
+
+.descriptions{
+    text-align: center;
+    width: 400px;
+    word-wrap: break-word;
+    margin: auto;
+}
+
+.ingredients{
+    background-color: #F5E6D3;
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.instructions{
+
+
+    width: fit-content;
+    max-width: 500px;
+    margin: 40px auto;
+    text-align: left;
+    overflow-wrap: break-word;
+
+}
+
+.titles{
+    text-align: center;
+}
+
+.serving-suggestions{
+    background-color: #F5E6D3;
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.link-container{
+    text-align: center;
+    background-color: brown;
+    margin: 40px auto;
+    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
