@@ -38,11 +38,8 @@ h1, .footer{
 
 /* defines the styles of links */
 
-a {
-    text-decoration-line: underline;       
-    text-decoration-style: wavy;           
-    text-decoration-color: brown;        
-    text-decoration-thickness: 2px;        
+a {     
+    text-decoration: none;
     color: brown;
 }     
 
@@ -50,7 +47,8 @@ a {
 /* defines the styles of images */
 
 img{
-    border: 2.5px solid brown ;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     width: fit-content;
     display: block;
     margin: auto;
