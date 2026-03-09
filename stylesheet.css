@@ -1,52 +1,42 @@
-/* remove margin */
-body{
+/* Remove default margin from the body */
+body {
     margin: 0px;
 }
 
-/* choose the font family */
-
-*{
-      font-family: 'Lato', sans-serif;
-     
+/* Apply Lato font to all elements */
+* {
+    font-family: 'Lato', sans-serif;
 }
 
-/* define h1 and footer elements style */
-
-h1, .footer{
-    background-color: brown ;
+/* Styles for h1 headings and footer */
+h1, .footer {
+    background-color: brown;
     color: white;
     padding: 20px;
     margin: 0px;
     text-align: center;
 }
 
-/* defines the style of the recipe cards */
-
-.potato-omelette-link, .ham-croquettes-link{
+/* Styles for recipe card links */
+.potato-omelette-link, .ham-croquettes-link {
     background-color: #F5E6D3;
     padding: 20px;
     width: fit-content;
     text-align: center;
     margin: 20px auto;
-    border: 5px solid #291b14;  
+    border: 5px solid #291b14;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-   
-    
 }
 
-
-/* defines the styles of links */
-
+/* Styles for hyperlinks */
 a {     
     text-decoration: none;
     color: brown;
 }     
 
-
-/* defines the styles of images */
-
-img{
+/* Styles for images */
+img {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     width: fit-content;
@@ -54,14 +44,16 @@ img{
     margin: auto;
 }
 
-.descriptions{
+/* Styles for description elements */
+.descriptions {
     text-align: center;
     width: 400px;
     word-wrap: break-word;
     margin: auto;
 }
 
-.ingredients{
+/* Styles for ingredients section */
+.ingredients {
     background-color: #F5E6D3;
     width: 400px;
     margin: 40px auto;
@@ -70,22 +62,22 @@ img{
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-.instructions{
-
-
+/* Styles for instructions section */
+.instructions {
     width: fit-content;
     max-width: 500px;
     margin: 40px auto;
     text-align: left;
     overflow-wrap: break-word;
-
 }
 
-.titles{
+/* Centered titles */
+.titles {
     text-align: center;
 }
 
-.serving-suggestions{
+/* Styles for serving suggestions section */
+.serving-suggestions {
     background-color: #F5E6D3;
     width: 400px;
     margin: 40px auto;
@@ -94,7 +86,8 @@ img{
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-.link-container{
+/* Styles for link container */
+.link-container {
     text-align: center;
     background-color: brown;
     margin: 40px auto;
