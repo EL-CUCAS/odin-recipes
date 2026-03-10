@@ -69,6 +69,10 @@ img {
     margin: 40px auto;
     text-align: left;
     overflow-wrap: break-word;
+    background-color: #fafafa;
+    border-radius: 10px;
+    padding: 20px;
+
 }
 
 /* Centered titles */
@@ -97,9 +101,17 @@ img {
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
+/* Simple divider to separate sections visually  */
+
 .divider {
   height: 1px;
   background: #e5e5e5;
   margin: 40px 0;
 }
 
+.section-note {
+   
+  text-align: center;    
+  margin: 20px 0;       
+  font-style: italic;     
+}
