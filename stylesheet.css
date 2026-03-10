@@ -72,6 +72,7 @@ img {
     background-color: #fafafa;
     border-radius: 10px;
     padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 
 }
 
@@ -114,4 +115,13 @@ img {
   text-align: center;    
   margin: 20px 0;       
   font-style: italic;     
+}
+
+.line-deco {
+  display: inline-block;
+  width: 30px;
+  height: 1px;
+  background: #ccc;
+  margin: 0 10px;
+  vertical-align: middle;
 }
